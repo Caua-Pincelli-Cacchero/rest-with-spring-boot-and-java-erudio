@@ -1,6 +1,6 @@
 package Caua_PIncelli_Cacchero.controllers;
 
-import Caua_PIncelli_Cacchero.PersonServices;
+import Caua_PIncelli_Cacchero.services.PersonServices;
 import Caua_PIncelli_Cacchero.model.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;

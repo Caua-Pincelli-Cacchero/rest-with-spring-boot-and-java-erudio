@@ -1,4 +1,4 @@
-package Caua_PIncelli_Cacchero;
+package Caua_PIncelli_Cacchero.services;
 
 import Caua_PIncelli_Cacchero.model.Person;
 import org.springframework.stereotype.Service;
