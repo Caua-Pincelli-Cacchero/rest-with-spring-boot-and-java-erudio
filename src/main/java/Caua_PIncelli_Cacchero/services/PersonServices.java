@@ -3,18 +3,19 @@ package Caua_PIncelli_Cacchero.services;
 import Caua_PIncelli_Cacchero.exception.ResourceNotFoundException;
 import Caua_PIncelli_Cacchero.model.Person;
 import Caua_PIncelli_Cacchero.repository.PersonRepository;
+import org.slf4j.LoggerFactory;
+import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
-import java.util.logging.Logger;
 
 @Service
 public class PersonServices {
 
-    private Logger logger = Logger.getLogger(PersonServices.class.getName());
+    private Logger logger = LoggerFactory.getLogger(PersonServices.class.getName());
     private final AtomicLong counter = new AtomicLong();
 
     @Autowired

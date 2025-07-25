@@ -13,4 +13,8 @@ spring:
       hibernate:
     show-sql: false
     open-in-view: false
+logging:
+  level:
+    Caua_PIncelli_Cacchero: debug
+    # root: warn
 
